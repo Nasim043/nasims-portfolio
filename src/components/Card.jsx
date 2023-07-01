@@ -25,6 +25,7 @@ const Card = (props) => {
                         {projectDescription}
                     </p>
                     <div className="flex flex-wrap gap-6 md:gap-10 justify-start items-center my-6">
+                        {/* eslint-disable-next-line react/prop-types */}
                         {technologies?.map((technologie) => <Icon icon={technologie.icon} width={technologie.width} className="h-10" key={technologie.id}/>)}
                     </div>
                     <div className="flex space-x-4">
