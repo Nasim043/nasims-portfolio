@@ -5,10 +5,11 @@ const Skills = () => {
         { id: 1, icon: "vscode-icons:file-type-html", width: "80" },
         { id: 2, icon: "vscode-icons:file-type-css", width: "94" },
         { id: 3, icon: "logos:bootstrap", width: "80" },
-        { id: 4, icon: "skill-icons:tailwindcss-dark", width: "80" },
+        { id: 4, icon: "devicon:tailwindcss", width: "80" },
         { id: 5, icon: "logos:javascript", width: "70" },
         { id: 6, icon: "skill-icons:react-dark", width: "80" },
         { id: 7, icon: "devicon:reactrouter", width: "80" },
+        { id: 8, icon: "vscode-icons:file-type-node", width: "80" },
         { id: 9, icon: "logos:daisyui", width: "85" },
         { id: 10, icon: "skill-icons:expressjs-dark", width: "90" },
         { id: 11, icon: "logos:axios", width: "130" },
@@ -43,7 +44,6 @@ const Skills = () => {
                 <img className='w-12 h-12' src="/images/node.png" alt="" />
                 <img className='w-12 h-12' src="/images/express.png" alt="" />
                 <img className='w-12 h-12' src="/images/mongo.png" alt="" />
-                <img className='w-12 h-12' src="/images/fiverr Level  2 b.png" alt="" />
             </div>
         </div>
     );

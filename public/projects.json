@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "projectName": "Lingua Learn",
+    "projectType": "Language learning platformm",
+    "fullScreenShot": "./images/Lingua learn Home.png",
+    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "technologies": [
+    
+        { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },
+        { "id": 2, "icon": "devicon:tailwindcss", "width": "40" },
+        { "id": 3, "icon": "skill-icons:expressjs-dark", "width": "40" },
+        { "id": 4, "icon": "skill-icons:mongodb", "width": "40" },
+        { "id": 5, "icon": "logos:firebase", "width": "40" },
+        { "id": 6, "icon": "logos:jwt-icon", "width": "40" }
+
+    ],
+    "liveLink": "https://summer-camp-2a42b.web.app/",
+    "clientLink": "https://github.com/Nasim043/lingua-learn-client",
+    "serverLink": "https://github.com/Nasim043/lingua-learn-server"
+  },
+  {
+    "id": 2,
+    "projectName": "ToyGalaxyHub",
+    "projectType": "A MERN toy marketplace website",
+    "fullScreenShot": "./images/ToyGalaxyHub Home.png",
+    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "technologies": [
+    
+        { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },
+        { "id": 2, "icon": "devicon:tailwindcss", "width": "40" },
+        { "id": 3, "icon": "skill-icons:expressjs-dark", "width": "40" },
+        { "id": 4, "icon": "skill-icons:mongodb", "width": "40" },
+        { "id": 5, "icon": "logos:firebase", "width": "40" }
+
+    ],
+    "liveLink": "https://eclectic-bavarois-b08cd9.netlify.app/",
+    "clientLink": "https://github.com/Nasim043/toy-hub-client",
+    "serverLink": "https://github.com/Nasim043/toy-hub-server"
+  },
+  {
+    "id": 3,
+    "projectName": "ToyGalaxyHub",
+    "projectType": "Chinese cuisine recipes Website",
+    "fullScreenShot": "./images/RecipeRealm.png",
+    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "technologies": [
+    
+        { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },
+        { "id": 2, "icon": "devicon:tailwindcss", "width": "40" },
+        { "id": 3, "icon": "skill-icons:expressjs-dark", "width": "40" },
+        { "id": 4, "icon": "logos:firebase", "width": "40" }
+
+    ],
+    "liveLink": "https://recipe-realm-131da.web.app/",
+    "clientLink": "https://github.com/Nasim043/recipe-realm-client",
+    "serverLink": "https://github.com/Nasim043/recipe-realm-server"
+  }
+]
