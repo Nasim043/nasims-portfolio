@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 const Home = () => {
     return (
         <>
-            <div className="px-4 pb-4 md:px-16 lg:px-8 lg:pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl mb-10 pt-32 text-gray-500 text-center" name="home">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true" className="px-4 pb-4 md:px-16 lg:px-8 lg:pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl mb-10 pt-32 text-gray-500 text-center" name="home">
                 <h3 className="text-white text-2xl font-bold sm:text-4xl md:font-semibold">Hi, 👋</h3>
                 <h3 className="text-white text-2xl font-bold sm:text-4xl md:font-semibold">I&apos;m Abu Saleh Nasim</h3>
                 <span className="text-white text-2xl font-bold sm:text-4xl md:font-semibold mr-2">I&apos;m a</span>

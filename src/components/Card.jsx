@@ -6,7 +6,7 @@ const Card = (props) => {
     // eslint-disable-next-line react/prop-types
     const { clientLink, serverLink, fullScreenShot, liveLink, projectName, projectDescription, projectType, technologies } = props.project;
     return (
-        <div className="container mx-auto flex flex-col lg:flex-row items-center">
+        <div className="container mx-auto flex flex-col lg:flex-row items-center mb-4" data-aos="fade-up" data-aos-duration="1000">
             {/* Image Side */}
             <div className="w-full lg:w-1/2 mb-8 lg:mb-0 h-72">
                 <img
@@ -19,21 +19,21 @@ const Card = (props) => {
             {/* Description Side */}
             <div className="w-full lg:w-1/2">
                 <div className="p-4 lg:p-8">
-                    <h2 className="text-white text-3xl lg:text-4xl font-semibold mb-4">{projectName}</h2>
-                    <h2 className="text-white text-xl lg:text-2xl font-medium mb-4">{projectType}</h2>
-                    <p className="text-gray-500 mb-6">
+                    <h2 className="text-white text-3xl lg:text-4xl font-semibold mb-3">{projectName}</h2>
+                    <h2 className="text-white text-xl lg:text-2xl font-medium mb-3">{projectType}</h2>
+                    <p className="text-primary-50 text-base opacity-80 mb-6">
                         {projectDescription}
                     </p>
                     <div className="flex flex-wrap gap-6 md:gap-10 justify-start items-center my-6">
                         {/* eslint-disable-next-line react/prop-types */}
                         {technologies?.map((technologie) => <Icon icon={technologie.icon} width={technologie.width} className="h-10" key={technologie.id}/>)}
                     </div>
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-5">
                         <a
                             href={clientLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-600"
+                            className="text-primary-300 border border-primary-300 p-1.5 rounded-md duration-300 hover:scale-125"
                         >
                             <span className="flex items-center">Client <FaGithub className="ml-2"></FaGithub></span>
                         </a>
@@ -41,7 +41,7 @@ const Card = (props) => {
                             href={serverLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-600"
+                            className="text-primary-300 border border-primary-300 p-1.5 rounded-md duration-300 hover:scale-125"
                         >
                             <span className="flex items-center">Server <FaGithub className="ml-2"></FaGithub></span>
                         </a>
@@ -49,7 +49,7 @@ const Card = (props) => {
                             href={liveLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-600"
+                            className="text-primary-300 border border-primary-300 p-1.5 rounded-md duration-300 hover:scale-125"
                         >
                             <span className="flex items-center">Live <BsFillArrowUpRightCircleFill className="ml-2"></BsFillArrowUpRightCircleFill></span>
                         </a>

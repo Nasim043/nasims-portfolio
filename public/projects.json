@@ -4,7 +4,7 @@
     "projectName": "Lingua Learn",
     "projectType": "Language learning platformm",
     "fullScreenShot": "./images/Lingua learn Home.png",
-    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "projectDescription": "Lingua Learn in a MERN Language learning platform.Here, instructor can upload and edit their courses. An admin can approve or decline the course and give feedback. Students can enroll in a course by paying the course fee using the Stripe payment method.",
     "technologies": [
     
         { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },
@@ -24,7 +24,7 @@
     "projectName": "ToyGalaxyHub",
     "projectType": "A MERN toy marketplace website",
     "fullScreenShot": "./images/ToyGalaxyHub Home.png",
-    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "projectDescription": "ToyGalaxyHub is a toy-selling e-commerce website developed using Tailwind, Daisyui, React, Express, MongoDB, and Firebase. Here, all Users can view all toys and only the registered users can manage their toys and view details.",
     "technologies": [
     
         { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },
@@ -40,10 +40,10 @@
   },
   {
     "id": 3,
-    "projectName": "ToyGalaxyHub",
+    "projectName": "Recipe Realm",
     "projectType": "Chinese cuisine recipes Website",
     "fullScreenShot": "./images/RecipeRealm.png",
-    "projectDescription": "This project is a MERN stack application called LEGOBOTIC. It includes features such as dynamic and interactive components developed using React.js, a responsive design achieved with Tailwind CSS, and secure user registration and login through Firebase Auth.",
+    "projectDescription": "Recipe Realm is a special website that focuses on Chinese cuisine. It is like a book filled with tasty recipes. Only people who have registered and logged in can see the details of the recipes. There are profiles for six skilled chefs, and each chef has many recipes to share. Users can even save their favorite recipes to come back to later.",
     "technologies": [
     
         { "id": 1, "icon": "skill-icons:react-dark", "width": "40" },

@@ -12,10 +12,10 @@ const About = () => {
                 <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Passionate MERN developer, dedicated to creating impactful solutions</p>
             </div>
             <div className="md:flex items-center">
-                <div className="md:w-1/2">
+                <div className="md:w-1/2" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
                     <Lottie animationData={aboutme} loop={true} />
                 </div>
-                <div className="text-gray-500 md:w-1/2 text-justify">
+                <div className="text-gray-500 md:w-1/2 text-justify" data-aos="fade-left" data-aos-duration="1000">
                     <p className="text-primary-50 text-base leading-relaxed opacity-80">
                         Hello, I&#39;m Abu Saleh Nasim, a passionate junior MERN (MongoDB, Express.js, React, Node.js) developer with a strong interest in web development and emerging technologies.
                         What I love most about web development is the continuous learning it requires. I&#39;m constantly exploring new libraries, frameworks, and tools to stay up-to-date with the latest industry trends. I believe that staying updated with the latest tools and techniques is crucial for success in this field.

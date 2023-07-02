@@ -29,7 +29,7 @@ const Skills = () => {
                 </p>
                 <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Versatile skill set with a focus on continuous learning</p>
             </div>
-            <div className="flex flex-wrap gap-10">
+            <div className="flex flex-wrap gap-10" data-aos="fade-up" data-aos-duration="1000">
                 {skills && skills.map((skill) =>
                     <motion.div
                         whileHover={{

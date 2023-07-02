@@ -20,7 +20,7 @@ const Contact = () => {
             });
     };
     return (
-        <div className="px-4 pb-4 md:px-16 lg:px-8 lg:pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl mb-10 pt-24" name="contact">
+        <div className="px-4 pb-4 md:px-16 lg:px-8 lg:pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl mb-10 pt-24" name="contact" data-aos="fade-right" data-aos-duration="1000">
             <div className="flex flex-col justify-center mx-auto h-full">
                 <div className="pb-8">
                     <p className="text-3xl font-semibold text-primary-300 sm:text-4xl inline border-b-4 border-gray-500">
