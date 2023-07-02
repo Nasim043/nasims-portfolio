@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { GridLoader } from "react-spinners";
 import ProjectSection from "./ProjectSection";
 import About from "./About";
+import Home from "./Home";
 
 const Main = () => {
     const [loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ const Main = () => {
     return (
         <>
             <Navbar></Navbar>
+            <Home></Home>
             <About></About>
             <Skills></Skills>
             <ProjectSection></ProjectSection>

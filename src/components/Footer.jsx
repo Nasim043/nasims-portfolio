@@ -1,7 +1,10 @@
+import SocialLinks from "./SocialLinks";
+
 const Footer = () => {
     return (
-        <footer className="text-light text-center bg-dark py-6">
-            Copyright &copy; 2023 - All right reserved by Md. Abu saleh Nasim
+        <footer className="text-light text-center bg-gradient-to-r from-[#0F172A] to-[#00] py-6">
+            <p className="mb-2">&copy;2023 - All right reserved by Md. Abu saleh Nasim</p>
+            <SocialLinks></SocialLinks>
         </footer>
     );
 };

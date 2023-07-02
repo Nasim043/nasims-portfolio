@@ -23,11 +23,11 @@ const Skills = () => {
     ]
     return (
         <div className="px-4 pb-4 md:px-16 lg:px-8 lg:pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl mb-10 pt-24" name="skill">
-            <div className="pb-8">
-                <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white">
+            <div className="pb-12">
+                <p className="text-3xl font-semibold text-primary-300 sm:text-4xl inline border-b-4 border-gray-500">
                     Skills
                 </p>
-                <p className="py-6 text-white">Submit the form below to get in touch with me</p>
+                <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Versatile skill set with a focus on continuous learning</p>
             </div>
             <div className="flex flex-wrap gap-10">
                 {skills && skills.map((skill) =>
@@ -44,17 +44,6 @@ const Skills = () => {
                     </motion.div>
                 )}
             </div>
-            {/* <div className='flex flex-wrap gap-6 md:gap-10 justify-center items-center mt-6'>
-                <img className='w-12 h-12' src="/images/html.png" alt="" />
-                <img className='w-12 h-12' src="/images/css.png" alt="" />
-                <img className='w-12 h-12' src="/images/js.png" alt="" />
-                <img className='w-12 h-12' src="/images/bootstrap.png" alt="" />
-                <img className='w-12 h-12' src="/images/tailwind.png" alt="" />
-                <img className='w-12 h-12' src="/images/react.png" alt="" />
-                <img className='w-12 h-12' src="/images/node.png" alt="" />
-                <img className='w-12 h-12' src="/images/express.png" alt="" />
-                <img className='w-12 h-12' src="/images/mongo.png" alt="" />
-            </div> */}
         </div>
     );
 };
