@@ -15,7 +15,7 @@ const ProjectSection = () => {
                 <p className="text-3xl font-semibold text-primary-300 sm:text-4xl inline border-b-4 border-gray-500">
                     My Projects
                 </p>
-                <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Submit the form below to get in touch with me</p>
+                <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Explore my portfolio of innovative projects</p>
             </div>
             {projects && projects.map(project => <Card project={project} key={project.id}></Card>)}
         </section>

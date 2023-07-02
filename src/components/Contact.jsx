@@ -12,7 +12,7 @@ const Contact = () => {
         emailjs.sendForm('service_m6e1fq4', 'template_q1lhgcg', form.current, 'oOrAfJnCcFa3tYx1s')
             .then((result) => {
                 if (result.text === 'OK') {
-                    toast.success('Email send successfully');
+                    toast.success('Message send successfully');
                     e.target.reset();
                 }
             }, (error) => {
@@ -31,18 +31,21 @@ const Contact = () => {
                 <div className=" flex justify-center items-center">
                     <form ref={form} onSubmit={sendEmail} className="flex flex-col w-full md:w-1/2 gap-4">
                         <input
+                            required
                             type="text"
                             name="from_name"
                             placeholder="Enter your name"
                             className="rounded border text-white border-primary-700/70 bg-primary-100/20 py-1 px-3 text-base leading-8 outline-none transition-colors duration-200 ease-in-out focus:ring-1 focus:ring-primary-700/70 dark:border-primary-300/50 dark:bg-primary-300/10 dark:focus:ring-primary-300/50"
                         />
                         <input
+                            required
                             type="text"
                             name="from_email"
                             placeholder="Enter your email"
                             className="rounded border text-white border-primary-700/70 bg-primary-100/20 py-1 px-3 text-base leading-8 outline-none transition-colors duration-200 ease-in-out focus:ring-1 focus:ring-primary-700/70 dark:border-primary-300/50 dark:bg-primary-300/10 dark:focus:ring-primary-300/50"
                         />
                         <textarea
+                            required
                             name="message"
                             placeholder="Enter your message"
                             rows="10"

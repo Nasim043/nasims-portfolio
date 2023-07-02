@@ -55,11 +55,11 @@ const Navbar = () => {
         </div>
 
         {nav && (
-          <ul data-aos="fade-left" data-aos-duration="500" className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-96 mt-20 bg-mybg text-gray-500">
+          <ul data-aos="fade-left" data-aos-duration="500" className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-96 mt-20 bg-mybg text-primary-50 opacity-50">
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className="px-4 cursor-pointer capitalize py-5 text-xl"
+                className="px-4 cursor-pointer capitalize py-4 text-xl"
               >
                 <Link
                   onClick={() => setNav(!nav)}
@@ -71,6 +71,7 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <a className="text-xl pt-4" href="https://drive.google.com/uc?export=download&id=1gBPVdHgB9L0LQI3s1N7ocSTroySsa499" target="_blank" rel="noreferrer">Resume</a>
           </ul>
         )}
       </div>

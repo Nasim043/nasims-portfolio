@@ -9,13 +9,13 @@ const About = () => {
                 <p className="text-3xl font-semibold text-primary-300 sm:text-4xl inline border-b-4 border-gray-500">
                     About Me
                 </p>
-                <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80">Passionate MERN developer, dedicated to creating impactful solutions</p>
+                <p className="text-primary-50 mt-5 text-base leading-relaxed opacity-80 w-[95%] sm:w-full">Passionate MERN developer, dedicated to creating impactful solutions</p>
             </div>
             <div className="md:flex items-center">
-                <div className="md:w-1/2" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
+                <div className="md:w-1/2" data-aos="fade-right" data-aos-duration="1000">
                     <Lottie animationData={aboutme} loop={true} />
                 </div>
-                <div className="text-gray-500 md:w-1/2 text-justify" data-aos="fade-left" data-aos-duration="1000">
+                <div className="text-gray-500 md:w-1/2 text-justify" data-aos="fade-right" data-aos-duration="1000">
                     <p className="text-primary-50 text-base leading-relaxed opacity-80">
                         Hello, I&#39;m Abu Saleh Nasim, a passionate junior MERN (MongoDB, Express.js, React, Node.js) developer with a strong interest in web development and emerging technologies.
                         What I love most about web development is the continuous learning it requires. I&#39;m constantly exploring new libraries, frameworks, and tools to stay up-to-date with the latest industry trends. I believe that staying updated with the latest tools and techniques is crucial for success in this field.
@@ -38,9 +38,9 @@ const About = () => {
                             className="rounded-full border-2 p-1 text-primary-700 border-primary-700 hover:bg-primary-600 hover:text-neutral-50 duration-300 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-primary-600">
                             <Icon className="text-xl" icon={'mdi:email-outline'} />
                         </a>
+                    </div>
                 </div>
             </div>
-        </div>
         </section >
     );
 };
