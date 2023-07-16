@@ -8,7 +8,7 @@ const SocialLinks = () => {
             icon: 'akar-icons:github-fill',
         },
         {
-            link: 'https://www.linkedin.com/in/md-abu-saleh-nasim-3773b4155/',
+            link: 'https://www.linkedin.com/in/md-abu-saleh-nasim/',
             icon: 'akar-icons:linkedin-fill',
         },
         {

@@ -27,14 +27,20 @@ const About = () => {
                     <br />
                     <div className="flex space-x-5">
                         <a href="https://github.com/Nasim043"
+                            rel="noreferrer"
+                            target="_blank"
                             className="rounded-full border-2 p-1 text-primary-700 border-primary-700 hover:bg-primary-600 hover:text-neutral-50 duration-300 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-primary-600">
                             <Icon className="text-xl" icon={'akar-icons:github-fill'} />
                         </a>
-                        <a href="https://www.linkedin.com/in/md-abu-saleh-nasim-3773b4155/"
+                        <a href="https://www.linkedin.com/in/md-abu-saleh-nasim/"
+                            rel="noreferrer"
+                            target="_blank"
                             className="rounded-full border-2 p-1 text-primary-700 border-primary-700 hover:bg-primary-600 hover:text-neutral-50 duration-300 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-primary-600">
                             <Icon className="text-xl" icon={'akar-icons:linkedin-fill'} />
                         </a>
                         <a href="mailto:nasimcse16@gmail.com"
+                            rel="noreferrer"
+                            target="_blank"
                             className="rounded-full border-2 p-1 text-primary-700 border-primary-700 hover:bg-primary-600 hover:text-neutral-50 duration-300 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-primary-600">
                             <Icon className="text-xl" icon={'mdi:email-outline'} />
                         </a>
