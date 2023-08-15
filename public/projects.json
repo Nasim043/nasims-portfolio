@@ -15,7 +15,7 @@
         { "id": 6, "icon": "logos:jwt-icon", "width": "40" }
 
     ],
-    "liveLink": "https://summer-camp-2a42b.web.app/",
+    "liveLink": "https://lingua-learn-2a42b.netlify.app/",
     "clientLink": "https://github.com/Nasim043/lingua-learn-client",
     "serverLink": "https://github.com/Nasim043/lingua-learn-server"
   },
@@ -34,7 +34,7 @@
         { "id": 5, "icon": "logos:firebase", "width": "40" }
 
     ],
-    "liveLink": "https://eclectic-bavarois-b08cd9.netlify.app/",
+    "liveLink": "https://toy-galaxy-hub-acaf47.netlify.app/",
     "clientLink": "https://github.com/Nasim043/toy-hub-client",
     "serverLink": "https://github.com/Nasim043/toy-hub-server"
   },
