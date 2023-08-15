@@ -44,7 +44,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <a className="text-primary-50 font-semibold" href="https://drive.google.com/uc?export=download&id=1gBPVdHgB9L0LQI3s1N7ocSTroySsa499" target="_blank" rel="noreferrer">Resume</a>
+          <a className="text-primary-50 font-semibold" href="https://drive.google.com/uc?export=download&id=1kVi8ZoNEVws8JNXM0mjjyW82IL2drGd7" target="_blank" rel="noreferrer">Resume</a>
         </ul>
 
         <div
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-            <a className="text-xl pt-4" href="https://drive.google.com/uc?export=download&id=1gBPVdHgB9L0LQI3s1N7ocSTroySsa499" target="_blank" rel="noreferrer">Resume</a>
+            <a className="text-xl pt-4" href="https://drive.google.com/uc?export=download&id=1kVi8ZoNEVws8JNXM0mjjyW82IL2drGd7" target="_blank" rel="noreferrer">Resume</a>
           </ul>
         )}
       </div>

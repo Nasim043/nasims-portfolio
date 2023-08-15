@@ -19,7 +19,7 @@ const Home = () => {
                 {/* <p> A passionate junior web developer from Bangladesh. I have always been fascinated by the power of the web and its ability to connect people from all over the world.</p> */}
                 <div className="my-4 space-x-4 md:space-x-6">
                     <a className="text-md mb-2 mx-auto inline-flex w-28 items-center justify-center rounded-lg border bg-primary-700 px-1 py-2.5 font-medium text-primary-50 hover:bg-primary-700/80 focus:outline-none focus:ring-2 dark:border-primary-700 dark:bg-primary-500 dark:hover:bg-primary-700 dark:focus:ring-primary-600"
-                        href="https://drive.google.com/uc?export=download&id=1gBPVdHgB9L0LQI3s1N7ocSTroySsa499" target="_blank" rel="noreferrer">Resume <Icon icon={'material-symbols:download'} className="ml-2"></Icon></a>
+                        href="https://drive.google.com/uc?export=download&id=1kVi8ZoNEVws8JNXM0mjjyW82IL2drGd7" target="_blank" rel="noreferrer">Resume <Icon icon={'material-symbols:download'} className="ml-2"></Icon></a>
                     <Link to="contact" className="text-md mb-2 mx-auto inline-flex w-28 items-center justify-center rounded-lg border bg-primary-700 px-1 py-2.5 font-medium text-primary-50 hover:bg-primary-700/80 focus:outline-none focus:ring-2 dark:border-primary-700 dark:bg-primary-500 dark:hover:bg-primary-700 dark:focus:ring-primary-600" smooth={true} duration={500}>Contact me</Link>
                 </div>
                 <SocialLinks></SocialLinks>
